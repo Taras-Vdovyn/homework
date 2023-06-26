@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+    background-color: rgb(247, 234, 207);
+}
+
+li {
+    text-align: left;
+}
+
+h2 {
+    border-bottom: 1px solid grey;
+}
