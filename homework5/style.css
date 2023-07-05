@@ -1,0 +1,107 @@
+.container {
+    background-color: rgb(68, 65, 65);
+    height: 1000px;
+}
+.table1 {
+    background-color: rgb(68, 65, 65);
+    padding-top: 50px;
+}
+.table_1 {
+    width: 750px;
+    border: 1px solid #b7a9a9;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.table_1 th, .table_1 td {
+    border-bottom: 1px solid #b7a9a9;
+    padding: 10px 5px;
+    text-align: left;
+} 
+.table_h {
+    color: #fff;
+        
+   
+}
+.table_1_td_ {
+    color: #d6d3d3;
+    
+}
+.img_table_1 {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    padding-left: 5px;   
+}
+
+.table_1 td.table_1_tr {
+    text-align: right;
+    padding-right: 10px;
+    color: rgb(153, 151, 151);
+}
+tr:hover {
+    background-color: rgb(94, 95, 95);
+}
+.table_1_td  {
+    color: rgb(153, 151, 151);
+}
+
+.table2{
+    background-color: rgb(68, 65, 65);
+    padding-top: 50px;
+}
+.input {
+   margin-right: 5px;
+}
+.table_2 {
+    width: 750px;
+    border: 1px solid #b7a9a9;
+    margin-left: 300px;
+}
+
+.table_2h{
+    border-bottom: 1px solid #b7a9a9;
+        padding: 10px 5px;
+        text-align: left;
+        color: #fff;
+}
+.table_2_tr {
+    text-align: right;
+        color: rgb(255, 255, 255);
+}
+
+.table_2 th, .table_2 td {
+    border-bottom: 1px solid #b7a9a9;
+    padding: 10px 5px;
+    
+}
+.table_3_img {
+    width: 17px;
+        height: 17px;
+        cursor: pointer;
+        padding-right: 3px;
+        padding-left: 3px;
+}
+.table_3_form {
+    text-align: right;
+    width: 60px; 
+}
+label img {
+    width: 20px;
+    position: absolute;
+}
+.table_3_input {
+    background-color: #b7a9a9;
+    border: none;
+   outline: none;
+   padding-left: 25px;
+ 
+   
+    
+}
+label {
+    display: inline-block;
+    width: auto;
+    border: 1px solid #b7a9a9;
+    
+}
+
