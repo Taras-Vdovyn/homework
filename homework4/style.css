@@ -52,6 +52,9 @@
     margin-left: 24px;
 }
 
+.header_box_2 {
+    position: relative;
+}
 .header_box_2_img_1 {
     width: 383px;
         height: 267px;
@@ -61,7 +64,7 @@
             background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
             margin-top: 116px;
             margin-bottom: 117px;
-            margin-left: 120px;
+            margin-left: 380px;
             position: relative;
 }
 .header_box_2_img_2 {
@@ -69,6 +72,7 @@
     margin-top: 116px;
     right: 216px;
     width: 383px;
+    margin-left: 81px;
         height: 267px;
         flex-shrink: 0;
         border-radius: 15px;
@@ -83,7 +87,7 @@
             background: url(<path-to-image>), lightgray 50% / cover no-repeat, #C4C4C4;
             position: absolute;
             margin-top: 94px;
-            right: 260px;
+            right: 71px;
 }
 
 .main {
