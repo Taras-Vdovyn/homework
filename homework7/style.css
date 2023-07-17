@@ -1,0 +1,679 @@
+.container {
+    width: 1440px;
+        height: 4077px;
+        background-color: #e9e9e9;
+}
+
+.header_nav {
+    width: 1440px;
+        height: 79px;
+        flex-shrink: 0;
+        background-color: #fff;
+}
+
+.header_nav_1_h1 {
+    color: var(--black, #1B2437);
+        font-family: 'Rochester';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.header_nav_1 {
+    display: flex;
+    justify-content: space-around;
+}
+.header_nav_1_img_1 a{
+    padding-right: 40px;
+}
+.header_nav_1_img_1 {
+    margin-top: 38px;
+}
+.header_nav_1_img_2 {
+        margin-top: 38px;
+}
+.header_nav_1_img_2_1 {
+        padding-left: 40px;
+}
+
+.header_nav_2 ul li {
+    display: inline;
+}
+.header_nav_2 {
+    margin-left: 300px;
+    width: 1440px;
+        height: 79px;
+        flex-shrink: 0;
+    
+}
+
+.nav_2_li_1 {
+    color: var(--pink, #EDA3B5);
+        font-family: 'Playfair Display';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: none;
+}
+.nav_2_li_2 {
+    color: #000;
+        font-family: 'Playfair Display';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 80px;
+                text-decoration-line: none;
+}
+.header_nav_2_1 {
+    width: 34px;
+        height: 3px;
+        flex-shrink: 0;
+        border-radius: 2px;
+            background: var(--pink, #EDA3B5);
+            margin-left: 58px;
+            
+}
+
+.section_1 {
+    margin-top: 100px;
+        width: 1439px;
+            height: 569px;
+            flex-shrink: 0;
+        background: url(./img/hero.png), lightgray 50% / cover no-repeat;
+        
+}
+
+.section_1_h1{
+    color: #FFF;
+        font-family: 'Playfair Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 67px;
+        /* 139.583% */
+        padding-top: 103px;
+        padding-left: 163px;
+}
+
+.section_1_p {
+    color: var(--white, #FFF);
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
+                padding-left: 163px;
+}
+.section_1_b {
+    width: 255px;
+        height: 77px;
+        flex-shrink: 0;
+        border-radius: 15px;
+            background: var(--black, #1B2437);
+            color: var(--white, #FFF);
+                font-family: 'Mulish';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px;
+                /* 166.667% */
+                margin-left: 163px;
+                margin-top: 34px;
+                cursor: pointer;
+}
+
+.section_2 {
+    display: grid;
+    grid-template-areas: 
+    'woman_collection_1 woman_collection_2 dresses_colection'
+    'woman_collection_1 denim_jackets_collection denim_jackets_collection'
+    'brends_collection brends_collection brends_collection';
+
+    grid-auto-rows: minmax(0, auto);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 71px;
+    
+}
+
+/*.section_2 div {
+    width: auto;
+    height: auto;
+    background-color: #EDA3B5;
+} */
+.woman_collection_1 {
+    grid-area: woman_collection_1;
+    width: 445px;
+        height: 458px;
+        flex-shrink: 0;
+        border-radius: 16px;
+            background: url(./img/women_collection_category.png), lightgray 50% / cover no-repeat;
+}
+.woman_collection_2 {
+    grid-area: woman_collection_2;
+    width: 303px;
+        height: 225px;
+        flex-shrink: 0;
+        border-radius: 16px;
+            background: #EFEFF4;
+}
+.dresses_colection {
+    grid-area: dresses_colection;
+    width: 302px;
+        height: 225px;
+        flex-shrink: 0;
+        border-radius: 16px;
+            background: url(./img/dresses_category.png), lightgray 50% / cover no-repeat;
+}
+.denim_jackets_collection {
+    grid-area: denim_jackets_collection;
+    width: 635px;
+        height: 204px;
+        flex-shrink: 0;
+        border-radius: 16px;
+            background: url(./img/denim_jackets_category.png), lightgray 50% / cover no-repeat;
+}
+.brends_collection {
+    grid-area: brends_collection;
+    width: 1110px;
+        height: 313px;
+        flex-shrink: 0;
+        border-radius: 16px;
+            background: var(--white, #FFF);
+}
+.woman_collection_1_h1 {
+    width: 288px;
+    color: var(--white, #FFF);
+        font-family: 'Playfair Display';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px;
+        /* 140.625% */
+        padding-top: 238px;
+        padding-left: 30px;
+}
+.woman_collection_1_p {
+    width: 288px;
+    color: #FFF;
+        font-family: '  Mulish';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5px;
+                padding-left: 30px;
+        /* 187.5% */
+}
+.woman_collection_1_b {
+    width: 93px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 8px;
+            opacity: 0.4000000059604645;
+            background: #b3b6c3;
+            color: #FFF;
+                font-family: 'Roboto';
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                /* 214.286% */
+                border-style: none;
+                cursor: pointer;
+                        margin-left: 30px;
+}
+
+.woman_collection_2_p {
+    width: 281px;
+    color: var(--black, #1B2437);
+        font-family: 'Mulish';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5px;
+        padding-top: 53px;
+        padding-left: 22px;
+        
+        /* 187.5% */
+}
+.woman_collection_h3 {
+    width: 281px;
+    color: var(--black, #1B2437);
+        font-family: 'Playfair Display';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px;
+        /* 140.625% */
+                padding-left: 22px;
+}
+.dresses_colection_p {
+    color: var(--white, #FFF);
+        font-family: 'Mulish';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        padding-top: 53px;
+        padding-left: 30px;
+        /* 187.5% */
+}
+
+ .dresses_colection_h1 {
+    color: var(--white, #FFF);
+        font-family: 'Playfair Display';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 15px;
+                padding-left: 30px;
+        /* 140.625% */
+ }
+ .denim_jackets_collection_p {
+        width: 281px;
+        color: var(--black, #1B2437);
+            font-family: 'Mulish';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 10px;
+            padding-left: 24px;
+            padding-top: 60px;
+            /* 187.5% */
+ }
+
+.denim_jackets_collection_h1  {
+    width: 281px;
+    color: var(--black, #1B2437);
+        font-family: 'Playfair Display';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        padding-left: 22px;
+        /* 140.625% */
+  }
+  .brends_collection_all {
+    display: flex;
+    width: 156px;
+        height: 127px;
+        flex-shrink: 0;
+        margin-top: 47px;
+        margin-left: 80px;
+  }
+  .brends_collection_all_img_1 {
+    width: 255px;
+        height: 207px;
+        flex-shrink: 0;
+        cursor: pointer;
+  }
+  .brends_collection_all_img_1 p {
+    padding-top: 12px;
+    padding-left: 30px;
+    
+  }
+  .brends_collection_all_img_2 {
+    width: 255px;
+        height: 207px;
+        flex-shrink: 0;
+        margin-left: 30px;
+        cursor: pointer;
+  }
+  .brends_collection_all_img_3 {
+    width: 255px;
+        height: 207px;
+        flex-shrink: 0;
+        margin-left: 30px;
+        margin-top: 30px;
+        cursor: pointer;
+  }
+  .brends_collection_all_img_3 p {
+    padding-top: 15px;
+    padding-left: 55px;
+  }
+  .brends_collection_all_img_4 {
+    width: 255px;
+        height: 207px;
+        flex-shrink: 0;
+        margin-left: 30px;
+        margin-top: 7px;
+        cursor: pointer;
+  }
+  .brends_collection_all_img_5 {
+    padding-top: 100px;
+    cursor: pointer;
+    padding-left: 500px;
+  }
+
+  .section_3_h1 {
+    color: var(--black, #1B2437);
+        font-family: 'Playfair Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 67px;
+        padding-left: 165px;
+        padding-top: 75px;
+        /* 139.583% */
+  }
+
+  .section_3_like {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-left: 90px;
+  
+   
+  }
+
+  .section_3_like_wrapper {
+width: 350px;
+    height: 487px;
+    flex-shrink: 0;
+    border-radius: 16px;
+        background: var(--white, #FFF);
+        box-shadow: 2px 5px 45px 0px rgba(237, 163, 181, 0.25);
+  }
+ .like_h3_1 {
+    width: 325px;
+    color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        /* 166.667% */
+        padding-left: 23px;
+ }
+ .like_p_1 {
+    width: 325px;color: #414141;
+        font-family: 'Mulish';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 187.5% */
+        padding-left: 23px;
+ }
+ .like_end_1 {
+    display: flex;
+    justify-content: space-around;
+ }
+ .like_end_1_p {
+    width: 92px;
+        height: 37px;
+        flex-shrink: 0;
+        color: #000;
+            font-family: 'Playfair Display';
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1px;
+            /* 88.235% */
+ }
+ .like_end_1_b {
+    width: 153px;
+        height: 58px;
+        flex-shrink: 0;
+        border-radius: 15px;
+            background: var(--pink, #EDA3B5);
+            border-style: none;
+            color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Mulish';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px;
+                /* 166.667% */
+                cursor: pointer;
+ }
+ .section_3_like_wrapper {
+    position: relative;
+ }
+
+ .like_omg {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+ }
+ .like_omg_heart {
+    position: absolute;
+    top: 27px;
+    right: 39px;
+    cursor: pointer;
+ }
+
+ .like_end_1_b_2 {
+    width: 153px;
+        height: 58px;
+        flex-shrink: 0;
+        border-radius: 15px;
+            background: var(--black, #1B2437);
+            color: var(--white, #FFF);
+                text-align: center;
+                font-family: 'Mulish';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px;
+                cursor: pointer;
+                /* 166.667% */
+ }
+
+ .section_4_h1 {
+    color: var(--black, #1B2437);
+        font-family: 'Playfair Display';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 67px;
+        /* 139.583% */
+        margin-left: 165px;
+        margin-top: 71px;
+ }
+ .section_4_nav {
+    width: 1110px;
+        height: 658px;
+        flex-shrink: 0;
+        border-radius: 16px;
+            background: var(--white, #FFF);
+            margin-left: 165px;
+ }
+ .section_4_img_1 {
+    padding: 12px;
+    position: relative;
+ }
+ .section_4_img_2 {
+    position: absolute;
+    left: 616px;
+    padding-top: 260px;
+    cursor: pointer;
+    
+ }
+ .nav_email_p {
+    color: #000;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 166.667% */
+ }
+ .nav_email {
+    cursor: pointer;
+ }
+ .nav_4 {
+    display: flex;
+    justify-content: space-around;
+ }
+ .nav_address_p {
+    color: #000;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        /* 166.667% */
+        cursor: pointer;
+ }
+ .nav_address img {
+    padding-left: 12px;
+    cursor: pointer;
+ }
+ .nav_tell_p {
+    color: #000;
+        font-family: 'Mulish';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        cursor: pointer;
+        /* 166.667% */
+ }
+ .nav_tell img {
+    padding-left: 55px;
+    cursor: pointer;
+ }
+
+ .footer_1 {
+    width: 1440px;
+        height: 333px;
+        flex-shrink: 0;
+        background: #FFF;
+        margin-top: 70px;
+        display: flex;
+ }
+ .wrapper_1_p {
+    width: 255px;
+    color: #5C5C5C;
+        font-family: 'Playfair Display';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 187.5% */
+        padding-top: 24px;
+ }
+.wrapper_1 {
+    margin-top: 32px;
+    margin-left: 165px;
+}
+.wrapper_2_h1 {
+    color: #000;
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        /* 166.667% */
+}
+
+.wrapper_2 ul li {
+list-style-type: none;
+color: var(--gray-6, #8E8E93);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 187.5% */
+    padding-top: 22px;
+    margin-left: 80px;
+}
+
+.wrapper_2_h1 {
+    margin-top: 65px;
+    margin-left: 120px;
+}
+.wrapper_2 a {
+    text-decoration: none;
+        color: var(--gray-6, #8E8E93);
+}
+
+.wrapper_3_h1 {
+    color: #000;
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        margin-top: 65px;
+        margin-left: 207px;
+        /* 166.667% */
+}
+.wrapper_3 ul li {
+    list-style-type: none;
+    color: var(--gray-6, #8E8E93);
+        font-family: 'Mulish';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        padding-top: 22px;
+        margin-left: 165px;
+        /* 187.5% */
+}
+.wrapper_3 a {
+    text-decoration: none;
+        color: var(--gray-6, #8E8E93);
+}
+.wrapper_4_h1 {
+    color: #000;
+        font-family: 'Playfair Display';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 30px;
+        margin-top: 65px;
+        margin-left: 170px;
+        /* 166.667% */
+}
+.wrapper_4 ul li {
+    list-style-type: none;
+    color: var(--gray-6, #8E8E93);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 22px;
+    margin-left: 130px;
+    /* 187.5% */
+}
+.wrapper_4 a {
+    text-decoration: none;
+    color: var(--gray-6, #8E8E93);
+}
+.footer_2 {
+    display: flex;
+    width: 1440px;
+        height: 74px;
+        flex-shrink: 0;
+        background: #E5E5EA;
+}
+
+.footer_2_p{
+    color: var(--gray-6, #8E8E93);
+        font-family: 'Mulish';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 250% */
+        padding-top: 15px;
+        margin-right: 900px;
+        margin-left: 120px;
+}
+.footer_2_1 {
+    display: flex;
+    
+}
+.footer_2_1 span {
+padding-top: 30px;
+padding-left: 40px;
+}
