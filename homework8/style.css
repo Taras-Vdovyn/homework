@@ -1,0 +1,98 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 30px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.container div {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+}
+
+ div :nth-child(3) {
+    background-color: red;
+}
+
+div :nth-child(7) {
+    background-color: red;
+}
+
+div :nth-child(11) {
+    background-color: red;
+}
+
+div :nth-child(15) {
+    background-color: red;
+}
+
+div :nth-child(19) {
+    background-color: red;
+}
+
+div :nth-child(23) {
+    background-color: red;
+}
+
+div :nth-child(21) {
+    background-color: blue;
+}
+
+div :nth-child(22) {
+    background-color: blue;
+}
+
+div :nth-child(24) {
+    background-color: blue;
+}
+
+.bt {
+    display: inline-flex;
+        width: 494px;
+        height: 92px;
+        flex-direction: column;
+        justify-content: center;
+        color: #FFF;
+            text-align: center;
+            font-family: 'Helvetica';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            padding-left: 120px;
+            margin-top: 70px;
+            margin-left: 480px;
+            background-color: rgb(41, 213, 156);
+            border-radius: 50px;
+            cursor: pointer;
+            border-style: none;
+            position: relative;
+}
+
+.bt a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.bt::before {
+    content: '';
+    width: 200px;
+    height: 5px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    position: absolute;
+    left: -250px;
+}
+
+.bt::after {
+    content: '';
+    width: 200px;
+    height: 5px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    position: absolute;
+    right: -250px;
+}
