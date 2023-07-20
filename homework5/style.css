@@ -1,31 +1,34 @@
 .container {
     background-color: rgb(68, 65, 65);
-    height: 1000px;
+    min-height: 100vh;
 }
+
 .table1 {
     background-color: rgb(68, 65, 65);
     padding-top: 50px;
 }
+
 .table_1 {
     width: 750px;
     border: 1px solid #b7a9a9;
     margin-left: 300px;
     margin-top: 50px;
 }
+
 .table_1 th, .table_1 td {
     border-bottom: 1px solid #b7a9a9;
-    padding: 10px 5px;
+    padding: 10px 20px;
     text-align: left;
 } 
+
 .table_h {
     color: #fff;
-        
-   
 }
+
 .table_1_td_ {
-    color: #d6d3d3;
-    
+    color: #d6d3d3;  
 }
+
 .img_table_1 {
     width: 10px;
     height: 10px;
@@ -35,12 +38,14 @@
 
 .table_1 td.table_1_tr {
     text-align: right;
-    padding-right: 10px;
+    padding-right:20px;
     color: rgb(153, 151, 151);
 }
+
 tr:hover {
     background-color: rgb(94, 95, 95);
 }
+
 .table_1_td  {
     color: rgb(153, 151, 151);
 }
@@ -49,9 +54,11 @@ tr:hover {
     background-color: rgb(68, 65, 65);
     padding-top: 50px;
 }
+
 .input {
    margin-right: 5px;
 }
+
 .table_2 {
     width: 750px;
     border: 1px solid #b7a9a9;
@@ -64,6 +71,7 @@ tr:hover {
         text-align: left;
         color: #fff;
 }
+
 .table_2_tr {
     text-align: right;
         color: rgb(255, 255, 255);
@@ -71,9 +79,13 @@ tr:hover {
 
 .table_2 th, .table_2 td {
     border-bottom: 1px solid #b7a9a9;
-    padding: 10px 5px;
-    
+    padding: 10px 20px;
 }
+
+.table_2 th{
+    width: 225px;
+}
+
 .table_3_img {
     width: 17px;
         height: 17px;
@@ -81,27 +93,38 @@ tr:hover {
         padding-right: 3px;
         padding-left: 3px;
 }
+
 .table_3_form {
     text-align: right;
-    width: 60px; 
-}
-label img {
-    width: 20px;
-    position: absolute;
-}
-.table_3_input {
-    background-color: #b7a9a9;
-    border: none;
-   outline: none;
-   padding-left: 25px;
- 
-   
-    
-}
-label {
-    display: inline-block;
-    width: auto;
-    border: 1px solid #b7a9a9;
-    
+    width: 75px; 
 }
 
+label img {
+    width: 15px;
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.table_3_input {
+    background-color: #d6d6d6;
+    border: none;
+   outline: none;
+   padding-left: 25px; 
+   border-radius: 6px;
+   width: 100px;  
+}
+
+label {
+    display: inline-block;
+    border: 1px solid #b7a9a9;
+    border-style: none;
+    padding-left: 80px;
+}
+
+.table_3h {
+    border-bottom: 1px solid #b7a9a9;
+        padding: 10px 5px;
+        text-align: left;
+        color: #fff;
+}
