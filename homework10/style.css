@@ -1,0 +1,222 @@
+body {
+    
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script';
+    color: rgba(31, 8, 26, 0.734);
+    size: 50px;
+}
+
+.box {
+    width: 1000px;
+    height: 500px;
+    background-image: url(./img/stars-g934a05b93_1920.jpg);
+    position: relative;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 230px;
+}
+
+
+/*
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 170px;
+    height: 20px;
+    */ 
+
+
+.stick {
+    width: 170px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.stick_first {
+    width: 170px;
+        height: 20px;
+        border-radius: 30px;
+        position: absolute;
+    top: 350px;
+    left: 30px;
+    background-color: blue;
+    box-shadow: 0px 9px 30px rgba(255, 255, 255, 0.3);
+    border: 3px solid black;
+    animation-name: sword_1;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sword_1 {
+    0% {
+
+    }
+
+    25% {
+        top: 270px;
+        left: 270px;
+        transform: rotate(145deg);
+    }
+
+    50% {
+        
+    }
+}
+
+.stick_second {
+    width: 170px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: red;
+    top: 400px;
+    left: 800px;
+    box-shadow: 0px 9px 30px rgba(8, 210, 58, 0.941);
+    border: 3px solid black;
+    animation-name: sword_2;
+    animation-duration: 7s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes sword_2 {
+    0% {
+
+    }
+
+    25% {
+        left: 300px;
+        top: 265px;
+        transform: rotate(45deg);
+    }
+    
+    50% {
+        top: 50px;
+        left: 430px;
+    }
+}
+
+.stick_three {
+    width: 170px;
+    height: 20px;
+    border-radius: 30px;
+    position: absolute;
+    background-color: green;
+    box-shadow:  0px 9px 30px rgba(255, 149, 5, 0.3);
+    top: 50px;
+    left: 400px;
+    border: 3px solid black;
+    animation-name: sword_3;
+    animation-duration: 7s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes sword_3 {
+    0% {
+       
+    }
+
+    25% {
+       
+    }
+
+    50% {
+        top: 400px;
+        left: 800px;
+        transform: rotate(65deg);
+    }
+    75% {
+        top: 350px;
+            left: 30px;
+            transform: rotate(165deg);
+    }
+}
+
+.box_2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(215, 181, 164);
+    margin-left: 230px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 70px;
+}
+
+.box_2 div {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(6, 137, 137);
+    border-radius: 50%;
+    margin-top: 120px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.box_2_div_1 {
+left: 314px;
+animation-name: div_1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+position: absolute;
+}
+
+@keyframes div_1 {
+    0% {
+    left: 314px;
+    }
+    25% {
+    left: 0px;
+    }
+
+    50% {
+    left: 314px;
+    }
+
+    75% {
+    left: 314px;
+    }
+
+    100% {
+    left: 314px;
+    }
+}
+
+.box_2_div_2 {
+position: absolute;
+right: 314px;
+animation-name: div_2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes div_2 {
+    0% {
+        right: 314px;
+    }
+    25% {
+        right: 314px;
+    }
+    50% {
+        right: 314px;
+    }
+    75%{
+        right: 0px;
+    }
+    100%{
+        right: 314px;
+    }
+}
+
