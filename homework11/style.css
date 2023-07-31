@@ -1,0 +1,36 @@
+.header_nav {
+    border-bottom: 1px solid gray;
+    background: #FAFAFA;
+        height: 60px;
+    }
+
+
+
+.search_img {
+    position: absolute;
+    top: 23px;
+    margin-left: 55px; 
+}
+
+.header_nav input {  
+    padding-left: 70px; 
+}
+
+.form-control {
+position: relative;
+}
+
+.header_nav_second img{
+    padding-left: 22px;
+    position: relative;
+    
+}
+
+
+   
+
+.header_nav_second_red_img {
+  position: absolute;
+  top: -13px;
+  right: 180px;
+}
